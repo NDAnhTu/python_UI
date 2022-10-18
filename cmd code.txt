@@ -1,0 +1,5 @@
+pip install pyserial
+pip install pyqt5
+
+pyuic5 -x uart.ui -o uart.py
+pyrcc5 image.qrc -o image.py
